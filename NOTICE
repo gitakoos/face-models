@@ -1,0 +1,26 @@
+face-models
+Copyright 2026 Akoos <https://akoos.eu>
+
+This repository redistributes two unmodified face-ML models and adds its own
+packaging and documentation. The models keep their upstream licenses.
+
+--------------------------------------------------------------------------------
+yunet.onnx  (face_detection_yunet_2023mar)
+--------------------------------------------------------------------------------
+Source:    OpenCV Zoo, models/face_detection_yunet
+           https://github.com/opencv/opencv_zoo
+Copyright: (c) 2020 Shiqi Yu <shiqi.yu@gmail.com>
+License:   MIT, full text in licenses/yunet-LICENSE.txt
+
+--------------------------------------------------------------------------------
+sface.onnx  (face_recognition_sface_2021dec)
+--------------------------------------------------------------------------------
+Source:    OpenCV Zoo, models/face_recognition_sface
+           https://github.com/opencv/opencv_zoo
+Author:    Yaoyao Zhong
+License:   Apache License 2.0, full text in licenses/sface-LICENSE.txt
+
+--------------------------------------------------------------------------------
+Packaging and documentation (this repository's README, LICENSE, NOTICE and
+SOURCE.md) are Copyright 2026 Akoos and licensed under the Apache License,
+Version 2.0. See LICENSE.
