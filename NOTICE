@@ -1,8 +1,37 @@
 face-models
 Copyright 2026 Akoos <https://akoos.eu>
 
-This repository redistributes two unmodified face-ML models and adds its own
-packaging and documentation. The models keep their upstream licenses.
+This repository redistributes face-ML models and adds its own packaging and
+documentation. Each model keeps its upstream license. The v2 files are ONNX
+exports produced from the upstream published weights; the v1 files are
+unmodified OpenCV Zoo blobs.
+
+================================================================================
+v2 models (current)
+================================================================================
+
+--------------------------------------------------------------------------------
+yolov5face.onnx  (YOLOv5-face, yolov5s-face)
+--------------------------------------------------------------------------------
+Source:    deepcam-cn/yolov5-face
+           https://github.com/deepcam-cn/yolov5-face
+Copyright: the yolov5-face authors (YOLO5Face, Qi et al.)
+License:   GNU General Public License v3.0, full text in
+           licenses/yolov5face-LICENSE.txt
+Note:      exported to ONNX from the upstream yolov5s-face weights; see SOURCE.md.
+
+--------------------------------------------------------------------------------
+ghostfacenet.onnx  (GhostFaceNetV1 W1.3)
+--------------------------------------------------------------------------------
+Source:    HamadYA/GhostFaceNets
+           https://github.com/HamadYA/GhostFaceNets
+Copyright: (c) 2022 HamadYA
+License:   MIT, full text in licenses/ghostfacenet-LICENSE.txt
+Note:      exported to ONNX from the upstream GhostFaceNet weights; see SOURCE.md.
+
+================================================================================
+v1 models (previous)
+================================================================================
 
 --------------------------------------------------------------------------------
 yunet.onnx  (face_detection_yunet_2023mar)
